@@ -1,0 +1,109 @@
+html {
+    font-size: 62.5%;
+}
+img {
+    max-width: 100%;
+}
+h1 {
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+P {
+    font-size: 1.5rem;
+}
+body {
+    background-color: #ededed;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.titulo {
+    font-size: 7rem;
+}
+.iconoEscudo{
+    height: 10rem;
+}
+.IconoInstagram{
+    height: 5rem;
+}
+
+.navegacion {
+    text-align: center;
+    font-size: 3.5rem;
+    background-color: #e88700;
+    color: black;
+}
+
+
+.noticias{
+    text-align: center;
+    font-size: 3.5rem
+}
+
+
+.parrafos{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/*Estilos Páginas Jugadores*/
+.tabla{
+    background-color: #ffac39;
+    font-size: 3.5rem;
+}
+.tabla__jugadores {
+    text-align: center;
+    font-size: 3rem;
+}
+.h5__carrousel{
+    font-size: 4rem;
+}
+.parrafo__carrousel {
+    font-size: 3rem;
+}
+
+/*Estilos Páginas Posiciones y Resultados*/
+.tabla__posiciones {
+    text-align: center;
+    font-size: 3.5rem;
+}
+.tpv__local {
+    background-color: #ffac39;
+}
+
+.tpv__visitante {
+    background-color: #ffac39;
+}
+
+/*Estilos Footer*/
+.footer {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/*Estilos imágenes*/
+.PieDeFoto {
+    font-size: 1.5rem;
+}
+
+/* Estilos de Formulario*/
+h3{
+    text-align: center;
+}
+
+.formulario{
+    margin: 1rem;
+    background-color: rgba(192, 192, 192, 0.397);
+    width: 40rem;
+    border: solid;
+    font-size: 1.5rem;
+}
+.div__formulario{
+    margin: 1rem;
+}
