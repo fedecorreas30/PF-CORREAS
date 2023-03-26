@@ -12,14 +12,23 @@ img {
 	max-width: 100%;
 }
 h1 {
+	text-align: center;
+	font-size: 4rem;
 	font-weight: bold;
+	margin: 2rem;
+}
+@media (max-width: 768px) {
+	h1 {
+		font-size: 2rem;
+		margin: 1rem;
+	}
 }
 h2 {
 	text-align: center;
 	font-size: 3.5rem;
 }
-P {
-	font-size: 1.5rem;
+p {
+	font-size: 2rem;
 }
 body {
 	background-color: $background-color_1;
@@ -32,6 +41,25 @@ body {
 .titulo {
 	font-size: 7rem;
 }
+
+.titulo__navegacion {
+	color: whitesmoke;
+	text-decoration: none; 
+}
+
+@media (max-width: 768px) {
+	.titulo{
+		font-size: 3.5rem;
+	}
+	.titulo__navegacion {
+		font-size: 2rem;
+	}
+	h2 {
+		text-align: center;
+		font-size: 2rem;
+	}
+}
+
 .iconoEscudo {
 	height: 10rem;
 }
@@ -53,6 +81,7 @@ body {
 	text-align: center;
 }
 /*Estilos Páginas Jugadores*/
+
 .imagen__carousel {
 	height: 65vh;
 	width: 65vh;
@@ -67,9 +96,20 @@ body {
 	-webkit-text-stroke: 1px black;
 }
 /*Estilos Páginas Posiciones y Resultados*/
+.tabla__resultados {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .tabla__detalles {
 	text-align: center;
 	font-size: 3.5rem;
+}
+@media (max-width: 768px){
+	.tabla__detalles{
+		text-align: center;
+		font-size: 2rem;
+	}
 }
 .tpv__local {
 	background-color: $background-color_3;
@@ -90,6 +130,16 @@ h3 {
 	text-align: center;
 }
 /* Estilos de Formulario*/
+.parrafo__historia {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.ubicacion__formulario {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .formulario {
 	margin: 1rem;
 	background-color: $background-color_4;
@@ -99,6 +149,7 @@ h3 {
 }
 .div__formulario {
 	margin: 1rem;
+	text-align: justify
 }
 
 @media (max-width: 768px) {
@@ -122,26 +173,33 @@ h3 {
 		flex-direction: column;
 		align-items: center;
 	}
-	.tabla__resultados {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
     .titulo_historia {
         display: flex;
 		flex-direction: column;
 		align-items: center;
     }
+	.carousel {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 	.slide {
 		margin-left: 10rem;
 		margin-right: 10rem;
+	}
+	.carousel {
+		margin-left: 15%;
+		margin-right: 15%;
 	}
 }
 @media (min-width: 1400px) {
 	.slide {
 		margin-left: 15rem;
 		margin-right: 15rem;
+	}
+	.carousel {
+		margin-left: 25%;
+		margin-right: 25%;
 	}
 }
