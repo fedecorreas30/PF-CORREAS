@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.ubicacionElementos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 html {
   font-size: 62.5%;
 }

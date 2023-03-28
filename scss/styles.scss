@@ -5,6 +5,8 @@ $background-color_2: #e88700;
 $background-color_3: #ffac39;
 $background-color_4: rgba(192, 192, 192, 0.397);
 
+@import "mixin";
+
 html {
 	font-size: 62.5%;
 }

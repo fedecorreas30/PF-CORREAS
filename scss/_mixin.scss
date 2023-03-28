@@ -1,0 +1,9 @@
+@mixin ubicacionelementos {
+    display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.ubicacionElementos {
+    @include ubicacionelementos;
+}
